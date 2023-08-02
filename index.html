@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon-icon.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <title>BESTARI Travel Agent</title>
+</head>
+
+<body>
+    <header>
+        <img src="img/logo-company.png" alt="logo-company" width="180px">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Our Package</a></li>
+            <li><a href="#">Call Us</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <div class="title">
+                <h1>Top Rated E-Groceries Shop in <br>Indonesia</h1>
+                <p>Every Day with best ingredients</p>
+            </div>
+            <figure>
+                <img src="img/Papua-indonesia.jpg" alt="Papua-indonesia">
+                <q>Setiap hari beli sayur buah yang fresh disini</q>
+                <div class="profile">
+                    <img src="profile.png" alt="">
+                    <div>
+                        <h2>Florence Hughes</h2>
+                        <p>Ibu Rumah Tangga, 28</p>
+                    </div>
+                </div>
+                <div class="element"></div>
+            </figure>
+            <aside>
+                <h2>Contact Us</h2>
+                <p>Sales akan menghubungi anda 1x24 jam setelah data kami terima</p>
+                <form onsubmit="return validateForm()">
+                    <label for="name">Your name:</label><br>
+                    <input type="text" id="name" name="name" placeholder="First and last name" pattern="[A-Za-z ]+"
+                        required title="Please enter your name using alphabets only."><br>
+
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required
+                        title="Please enter a valid email address."><br>
+
+                    <label for="interest">What are you interested in?</label><br>
+                    <select id="interest" name="interest" required>
+                        <option value="">Select an option</option>
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                    </select><br>
+
+                    <input class="button" type="submit" value="Send" />
+                </form>
+            </aside>
+            <footer>
+                <h2>
+                    Use this space to provide users with more information
+                    about your offer. Consider it a follow-up to your headline
+                    and explain the benefits of your service or product
+                </h2>
+                <div></div>
+                <ol>
+                    <li>Your first feature, written in the form of a benefit statement.
+                    </li>
+                    <li>Your first feature, written in the form of a benefit statement.
+                    </li>
+                    <li>Your first feature, written in the form of a benefit statement.
+                    </li>
+                </ol>
+                <div></div>
+            </footer>
+        </section>
+
+        <section class="our-package" id="our-package">
+            <h1>Our Package</h1>
+            <ul>
+                <li>
+                    <i class='fas fa-check-circle' style='font-size:36px'></i>
+                    <div>
+                        <h2>Fresh Vegetable</h2>
+                        <p>Sayuran segar langsung dari sumber pertanian terbaik</p>
+                    </div>
+                </li>
+                <li>
+                    <i class='fas fa-check-circle' style='font-size:36px'></i>
+                    <div>
+                        <h2>Fresh Fruit</h2>
+                        <p>Buah dengan kualitas terbaik dari local atau import dan harga yang menarik</p>
+                    </div>
+                </li>
+                <li>
+                    <i class='fas fa-check-circle' style='font-size:36px'></i>
+                    <div>
+                        <h2>Instant Delivery</h2>
+                        <p>Di kirim instan Oleh kurir yang telah di training dengan SOP untuk menjaga kondisi belanja kamu</p>
+                    </div>
+                </li>
+            </ul>
+            <div class="element" style="margin-bottom: 32px;"></div>
+            <ul>
+                <li>
+                    <i class="fa-solid fa-star" style="font-size: 36px;"></i>
+                    <div>
+                        <h2>Fresh Vegetable</h2>
+                        <p>Sayuran segar langsung dari sumber pertanian terbaik</p>
+                    </div>
+                </li>
+                <li>
+                    <i class="fa-solid fa-star" style="font-size: 36px;"></i>
+                    <div>
+                        <h2>Fresh Vegetable</h2>
+                        <p>Sayuran segar langsung dari sumber pertanian terbaik</p>
+                    </div>
+                </li>
+                <li>
+                    <i class="fa-solid fa-star" style="font-size: 36px;"></i>
+                    <div>
+                        <h2>Fresh Vegetable</h2>
+                        <p>Sayuran segar langsung dari sumber pertanian terbaik</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        
+        <section class="call-us">
+            <h1>Your Closing Argument Headline</h1>
+            <p>Suspendisse egestas rhoncus urna in bibendum. Donec urna neque, euismod sed justo quis, convallis tincidunt risus. Phasellus fringilla odio vel erat fringilla,</p>
+            <button class="button"><a>Call To Action</a></button>
+        </section>
+    </main>
+    
+    <footer id="footer">
+        <img src="img/logo-company.png" alt="logo-company" width="180px">
+        <div>
+            <p><a>Terms of service</a></p>
+            <p><a>Privacy policy</a></p>
+        </div>
+        <p>&#169; 2023 BESTARI Travel Agent</p>
+    </footer>
+</body>
+
+</html>
