@@ -40,4 +40,3 @@ function validateForm() {
 
     return true;
 }
-
